@@ -1,5 +1,5 @@
 //
-//  LoginViewController.m
+//  LoginViewControllerTest.m
 //  UnitTest
 //
 //  Created by Paul Moon on 6/17/15.
@@ -9,11 +9,11 @@
 #import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
 
-@interface LoginViewController : XCTestCase
+@interface LoginViewControllerTest : XCTestCase
 
 @end
 
-@implementation LoginViewController
+@implementation LoginViewControllerTest
 
 - (void)setUp {
     [super setUp];
