@@ -15,5 +15,7 @@
 @property (weak, nonatomic) IBOutlet UILabel *incorrectUsername;
 @property (weak, nonatomic) IBOutlet UILabel *incorrectPassword;
 
+- (IBAction)performLogin:(id)sender;
+
 @end
 

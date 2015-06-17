@@ -8,6 +8,8 @@
 
 #import "LoginViewController.h"
 #import "LoginModel.h"
+#import "ViewHelper.h"
+#import "Services.h"
 
 @interface LoginViewController ()
 @end
@@ -19,7 +21,6 @@ LoginModel *loginModel;
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    loginModel = [[LoginModel alloc] init];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -33,20 +34,13 @@ LoginModel *loginModel;
     {
         @try
         {
-            [loginModel doLoginWithUsername:[_usernameTextField text] andPassword:[_usernameTextField text]];
+            loginModel = [[Services sharedInstance] getLoginModel];
+            [loginModel doLoginWithUsername:[_usernameTextField text] andPassword:[_passwordTextField text]];
             [self performSegueWithIdentifier:@"showWelcomeScreen" sender:self];
         }
         @catch(NSException *e)
         {
-            UIAlertController* alert = [UIAlertController alertControllerWithTitle:
-                                        @"Network Error" message:@"There was a communication error."
-                                        preferredStyle:UIAlertControllerStyleAlert];
-            
-            UIAlertAction* defaultAction = [UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleDefault
-                handler:^(UIAlertAction * action) {}];
-            
-            [alert addAction:defaultAction];
-            [self presentViewController:alert animated:YES completion:nil];
+            [ViewHelper showAlertForTitle:@"Network Error" andTheMessage:@"There was a communication error." andAccessibilityLabel:@"Network Error"];
         }
     }
 }
