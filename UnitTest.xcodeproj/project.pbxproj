@@ -9,11 +9,16 @@
 /* Begin PBXBuildFile section */
 		DC1EA87D1B31BE9A009E7494 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DC1EA87C1B31BE9A009E7494 /* main.m */; };
 		DC1EA8801B31BE9A009E7494 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DC1EA87F1B31BE9A009E7494 /* AppDelegate.m */; };
-		DC1EA8831B31BE9A009E7494 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC1EA8821B31BE9A009E7494 /* ViewController.m */; };
+		DC1EA8831B31BE9A009E7494 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC1EA8821B31BE9A009E7494 /* LoginViewController.m */; };
 		DC1EA8861B31BE9A009E7494 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC1EA8841B31BE9A009E7494 /* Main.storyboard */; };
 		DC1EA8881B31BE9A009E7494 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC1EA8871B31BE9A009E7494 /* Images.xcassets */; };
 		DC1EA88B1B31BE9A009E7494 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC1EA8891B31BE9A009E7494 /* LaunchScreen.xib */; };
 		DC1EA8971B31BE9A009E7494 /* UnitTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DC1EA8961B31BE9A009E7494 /* UnitTestTests.m */; };
+		DC1EA8A11B31D177009E7494 /* LoginModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DC1EA8A01B31D177009E7494 /* LoginModel.m */; };
+		DC1EA8A41B31DD29009E7494 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC1EA8A31B31DD29009E7494 /* LoginViewController.m */; };
+		DC1EA8A81B31DE3B009E7494 /* OCMock in Resources */ = {isa = PBXBuildFile; fileRef = DC1EA8A71B31DE3B009E7494 /* OCMock */; };
+		DC1EA8AA1B31DE78009E7494 /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DC1EA8A91B31DE78009E7494 /* libOCMock.a */; };
+		DC1EA8AB1B31DEF5009E7494 /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DC1EA8A91B31DE78009E7494 /* libOCMock.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +37,19 @@
 		DC1EA87C1B31BE9A009E7494 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DC1EA87E1B31BE9A009E7494 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DC1EA87F1B31BE9A009E7494 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		DC1EA8811B31BE9A009E7494 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		DC1EA8821B31BE9A009E7494 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DC1EA8811B31BE9A009E7494 /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		DC1EA8821B31BE9A009E7494 /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		DC1EA8851B31BE9A009E7494 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DC1EA8871B31BE9A009E7494 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		DC1EA88A1B31BE9A009E7494 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		DC1EA8901B31BE9A009E7494 /* UnitTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC1EA8951B31BE9A009E7494 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DC1EA8961B31BE9A009E7494 /* UnitTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UnitTestTests.m; sourceTree = "<group>"; };
+		DC1EA8A01B31D177009E7494 /* LoginModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginModel.m; sourceTree = "<group>"; };
+		DC1EA8A21B31D1B9009E7494 /* LoginModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginModel.h; sourceTree = "<group>"; };
+		DC1EA8A31B31DD29009E7494 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		DC1EA8A71B31DE3B009E7494 /* OCMock */ = {isa = PBXFileReference; lastKnownFileType = folder; path = OCMock; sourceTree = "<group>"; };
+		DC1EA8A91B31DE78009E7494 /* libOCMock.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libOCMock.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC1EA8AA1B31DE78009E7494 /* libOCMock.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC1EA8AB1B31DEF5009E7494 /* libOCMock.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +78,7 @@
 				DC1EA8791B31BE9A009E7494 /* UnitTest */,
 				DC1EA8931B31BE9A009E7494 /* UnitTestTests */,
 				DC1EA8781B31BE9A009E7494 /* Products */,
+				DC1EA8A51B31DE0A009E7494 /* usr */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,8 +96,10 @@
 			children = (
 				DC1EA87E1B31BE9A009E7494 /* AppDelegate.h */,
 				DC1EA87F1B31BE9A009E7494 /* AppDelegate.m */,
-				DC1EA8811B31BE9A009E7494 /* ViewController.h */,
-				DC1EA8821B31BE9A009E7494 /* ViewController.m */,
+				DC1EA8811B31BE9A009E7494 /* LoginViewController.h */,
+				DC1EA8821B31BE9A009E7494 /* LoginViewController.m */,
+				DC1EA8A21B31D1B9009E7494 /* LoginModel.h */,
+				DC1EA8A01B31D177009E7494 /* LoginModel.m */,
 				DC1EA8841B31BE9A009E7494 /* Main.storyboard */,
 				DC1EA8871B31BE9A009E7494 /* Images.xcassets */,
 				DC1EA8891B31BE9A009E7494 /* LaunchScreen.xib */,
@@ -107,6 +122,7 @@
 			children = (
 				DC1EA8961B31BE9A009E7494 /* UnitTestTests.m */,
 				DC1EA8941B31BE9A009E7494 /* Supporting Files */,
+				DC1EA8A31B31DD29009E7494 /* LoginViewController.m */,
 			);
 			path = UnitTestTests;
 			sourceTree = "<group>";
@@ -117,6 +133,23 @@
 				DC1EA8951B31BE9A009E7494 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DC1EA8A51B31DE0A009E7494 /* usr */ = {
+			isa = PBXGroup;
+			children = (
+				DC1EA8A61B31DE1D009E7494 /* include */,
+			);
+			name = usr;
+			sourceTree = "<group>";
+		};
+		DC1EA8A61B31DE1D009E7494 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				DC1EA8A91B31DE78009E7494 /* libOCMock.a */,
+				DC1EA8A71B31DE3B009E7494 /* OCMock */,
+			);
+			name = include;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,6 +234,7 @@
 			files = (
 				DC1EA8861B31BE9A009E7494 /* Main.storyboard in Resources */,
 				DC1EA88B1B31BE9A009E7494 /* LaunchScreen.xib in Resources */,
+				DC1EA8A81B31DE3B009E7494 /* OCMock in Resources */,
 				DC1EA8881B31BE9A009E7494 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,7 +253,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC1EA8831B31BE9A009E7494 /* ViewController.m in Sources */,
+				DC1EA8831B31BE9A009E7494 /* LoginViewController.m in Sources */,
+				DC1EA8A11B31D177009E7494 /* LoginModel.m in Sources */,
 				DC1EA8801B31BE9A009E7494 /* AppDelegate.m in Sources */,
 				DC1EA87D1B31BE9A009E7494 /* main.m in Sources */,
 			);
@@ -229,6 +264,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC1EA8A41B31DD29009E7494 /* LoginViewController.m in Sources */,
 				DC1EA8971B31BE9A009E7494 /* UnitTestTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -349,6 +385,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = UnitTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -359,6 +399,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = UnitTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -375,8 +419,23 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(PROJECT_DIR)/usr/include",
+				);
 				INFOPLIST_FILE = UnitTestTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					XCTest,
+					"-ObjC",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UnitTest.app/UnitTest";
 			};
@@ -390,8 +449,23 @@
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(PROJECT_DIR)/usr/include",
+				);
 				INFOPLIST_FILE = UnitTestTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					XCTest,
+					"-ObjC",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UnitTest.app/UnitTest";
 			};
@@ -416,6 +490,7 @@
 				DC1EA89C1B31BE9A009E7494 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DC1EA89D1B31BE9A009E7494 /* Build configuration list for PBXNativeTarget "UnitTestTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +499,7 @@
 				DC1EA89F1B31BE9A009E7494 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
