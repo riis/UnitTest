@@ -21,6 +21,7 @@
 		DC1EA8AB1B31DEF5009E7494 /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DC1EA8A91B31DE78009E7494 /* libOCMock.a */; };
 		DC1EA8AD1B31EFD6009E7494 /* ViewHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = DC1EA8AC1B31EFD6009E7494 /* ViewHelper.m */; };
 		DC1EA8B11B31FAD9009E7494 /* Services.m in Sources */ = {isa = PBXBuildFile; fileRef = DC1EA8B01B31FAD9009E7494 /* Services.m */; };
+		DC1EA8B31B3209D7009E7494 /* README.rtf in Resources */ = {isa = PBXBuildFile; fileRef = DC1EA8B21B3209D7009E7494 /* README.rtf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		DC1EA8AE1B31EFF1009E7494 /* ViewHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewHelper.h; sourceTree = "<group>"; };
 		DC1EA8AF1B31FA36009E7494 /* Services.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Services.h; sourceTree = "<group>"; };
 		DC1EA8B01B31FAD9009E7494 /* Services.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Services.m; sourceTree = "<group>"; };
+		DC1EA8B21B3209D7009E7494 /* README.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = README.rtf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 		DC1EA86E1B31BE9A009E7494 = {
 			isa = PBXGroup;
 			children = (
+				DC1EA8B21B3209D7009E7494 /* README.rtf */,
 				DC1EA8791B31BE9A009E7494 /* UnitTest */,
 				DC1EA8931B31BE9A009E7494 /* UnitTestTests */,
 				DC1EA8781B31BE9A009E7494 /* Products */,
@@ -246,6 +249,7 @@
 				DC1EA88B1B31BE9A009E7494 /* LaunchScreen.xib in Resources */,
 				DC1EA8A81B31DE3B009E7494 /* OCMock in Resources */,
 				DC1EA8881B31BE9A009E7494 /* Images.xcassets in Resources */,
+				DC1EA8B31B3209D7009E7494 /* README.rtf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
