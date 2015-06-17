@@ -15,10 +15,12 @@
 		DC1EA88B1B31BE9A009E7494 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC1EA8891B31BE9A009E7494 /* LaunchScreen.xib */; };
 		DC1EA8971B31BE9A009E7494 /* UnitTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DC1EA8961B31BE9A009E7494 /* UnitTestTests.m */; };
 		DC1EA8A11B31D177009E7494 /* LoginModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DC1EA8A01B31D177009E7494 /* LoginModel.m */; };
-		DC1EA8A41B31DD29009E7494 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC1EA8A31B31DD29009E7494 /* LoginViewController.m */; };
+		DC1EA8A41B31DD29009E7494 /* LoginViewControllerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = DC1EA8A31B31DD29009E7494 /* LoginViewControllerTest.m */; };
 		DC1EA8A81B31DE3B009E7494 /* OCMock in Resources */ = {isa = PBXBuildFile; fileRef = DC1EA8A71B31DE3B009E7494 /* OCMock */; };
 		DC1EA8AA1B31DE78009E7494 /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DC1EA8A91B31DE78009E7494 /* libOCMock.a */; };
 		DC1EA8AB1B31DEF5009E7494 /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DC1EA8A91B31DE78009E7494 /* libOCMock.a */; };
+		DC1EA8AD1B31EFD6009E7494 /* ViewHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = DC1EA8AC1B31EFD6009E7494 /* ViewHelper.m */; };
+		DC1EA8B11B31FAD9009E7494 /* Services.m in Sources */ = {isa = PBXBuildFile; fileRef = DC1EA8B01B31FAD9009E7494 /* Services.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,9 +49,13 @@
 		DC1EA8961B31BE9A009E7494 /* UnitTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UnitTestTests.m; sourceTree = "<group>"; };
 		DC1EA8A01B31D177009E7494 /* LoginModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginModel.m; sourceTree = "<group>"; };
 		DC1EA8A21B31D1B9009E7494 /* LoginModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginModel.h; sourceTree = "<group>"; };
-		DC1EA8A31B31DD29009E7494 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		DC1EA8A31B31DD29009E7494 /* LoginViewControllerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewControllerTest.m; sourceTree = "<group>"; };
 		DC1EA8A71B31DE3B009E7494 /* OCMock */ = {isa = PBXFileReference; lastKnownFileType = folder; path = OCMock; sourceTree = "<group>"; };
 		DC1EA8A91B31DE78009E7494 /* libOCMock.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libOCMock.a; sourceTree = "<group>"; };
+		DC1EA8AC1B31EFD6009E7494 /* ViewHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewHelper.m; sourceTree = "<group>"; };
+		DC1EA8AE1B31EFF1009E7494 /* ViewHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewHelper.h; sourceTree = "<group>"; };
+		DC1EA8AF1B31FA36009E7494 /* Services.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Services.h; sourceTree = "<group>"; };
+		DC1EA8B01B31FAD9009E7494 /* Services.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Services.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +106,10 @@
 				DC1EA8821B31BE9A009E7494 /* LoginViewController.m */,
 				DC1EA8A21B31D1B9009E7494 /* LoginModel.h */,
 				DC1EA8A01B31D177009E7494 /* LoginModel.m */,
+				DC1EA8AE1B31EFF1009E7494 /* ViewHelper.h */,
+				DC1EA8AC1B31EFD6009E7494 /* ViewHelper.m */,
+				DC1EA8AF1B31FA36009E7494 /* Services.h */,
+				DC1EA8B01B31FAD9009E7494 /* Services.m */,
 				DC1EA8841B31BE9A009E7494 /* Main.storyboard */,
 				DC1EA8871B31BE9A009E7494 /* Images.xcassets */,
 				DC1EA8891B31BE9A009E7494 /* LaunchScreen.xib */,
@@ -122,7 +132,7 @@
 			children = (
 				DC1EA8961B31BE9A009E7494 /* UnitTestTests.m */,
 				DC1EA8941B31BE9A009E7494 /* Supporting Files */,
-				DC1EA8A31B31DD29009E7494 /* LoginViewController.m */,
+				DC1EA8A31B31DD29009E7494 /* LoginViewControllerTest.m */,
 			);
 			path = UnitTestTests;
 			sourceTree = "<group>";
@@ -253,10 +263,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC1EA8AD1B31EFD6009E7494 /* ViewHelper.m in Sources */,
 				DC1EA8831B31BE9A009E7494 /* LoginViewController.m in Sources */,
 				DC1EA8A11B31D177009E7494 /* LoginModel.m in Sources */,
 				DC1EA8801B31BE9A009E7494 /* AppDelegate.m in Sources */,
 				DC1EA87D1B31BE9A009E7494 /* main.m in Sources */,
+				DC1EA8B11B31FAD9009E7494 /* Services.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,7 +276,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC1EA8A41B31DD29009E7494 /* LoginViewController.m in Sources */,
+				DC1EA8A41B31DD29009E7494 /* LoginViewControllerTest.m in Sources */,
 				DC1EA8971B31BE9A009E7494 /* UnitTestTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -422,7 +434,7 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
-					"$(PROJECT_DIR)/usr/include",
+					"$(PROJECT_DIR)/**",
 				);
 				INFOPLIST_FILE = UnitTestTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -452,7 +464,7 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
-					"$(PROJECT_DIR)/usr/include",
+					"$(PROJECT_DIR)/**",
 				);
 				INFOPLIST_FILE = UnitTestTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
